@@ -9,7 +9,7 @@
 
 		private void TextBox_KeyPress(object sender, System.Windows.Forms.KeyPressEventArgs e)
 		{
-			// کاراکتری که کاربر وارد کرده است
+			// کاراکتری که کاربر در کادر متنی جاری وارد کرده است
 			//switch (e.KeyChar)
 			//{
 			//	case '0':
@@ -36,7 +36,7 @@
 
 
 
-			// کد اسکی کاراکتری که کاربر وارد کرده است
+			// کد اسکی کاراکتری که کاربر در کادر متنی جاری وارد کرده است
 			//if ((e.KeyChar < '0') || (e.KeyChar > '9'))
 			//{
 			//	e.Handled = true;
@@ -44,6 +44,7 @@
 
 
 
+			// کد اسکی کاراکتری که کاربر در کادر متنی جاری وارد کرده است
 			//if (((e.KeyChar >= '0') && (e.KeyChar <= '9')) == false)
 			//{
 			//	e.Handled = true;
@@ -51,6 +52,7 @@
 
 
 
+			// کد اسکی کاراکتری که کاربر در کادر متنی جاری وارد کرده است
 			if ((((e.KeyChar >= '0') && (e.KeyChar <= '9')) || (e.KeyChar == 8)) == false)
 			{
 				e.Handled = true;
